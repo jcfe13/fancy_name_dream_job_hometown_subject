@@ -1,6 +1,9 @@
 # Pseudocode
 
 # 1. Import necessary libraries for fancy printing
+import art
+from colorama import Fore, Style
+
 # 2. Print a welcome message explaining the purpose of the program
 # 3. Prompt the user to input their name
 # 4. Prompt the user to input their dream job
