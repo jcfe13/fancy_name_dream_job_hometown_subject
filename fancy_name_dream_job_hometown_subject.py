@@ -41,4 +41,9 @@ art.tprint(hometown, font="block")
 print(Style.RESET_ALL)
 
 # 10. Print the user's favorite subject in a fancy way
+print("\nYour favorite subject in a fancy way: ")
+print(Fore.YELLOW, end="")
+art.tprint(favorite_subject, font="basic")
+print(Style.RESET_ALL)
+
 # 11. Thank the user for using the program
