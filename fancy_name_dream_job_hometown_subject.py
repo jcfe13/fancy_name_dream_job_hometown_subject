@@ -20,6 +20,8 @@ dream_job = input("Please enter your dream job: ")
 hometown = input("Please enter your hometown: ")
 
 # 6. Prompt the user to input their favorite subject
+favorite_subject = input("Please enter your favorite subject: ")
+
 # 7. Print the user's name in a fancy way
 # 8. Print the user's dream job in a fancy way
 # 9. Print the user's hometown in a fancy way
