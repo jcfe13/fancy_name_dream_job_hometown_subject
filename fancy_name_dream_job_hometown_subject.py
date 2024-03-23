@@ -5,6 +5,11 @@ import art
 from colorama import Fore, Style
 
 # 2. Print a welcome message explaining the purpose of the program
+print(Fore.CYAN)
+art.tprint("Welcome to my Program", font="small")
+print(Style.RESET_ALL)
+print("- This program display your name, dream job, hometown, and your favorite subject in a fancy way.")
+
 # 3. Prompt the user to input their name
 # 4. Prompt the user to input their dream job
 # 5. Prompt the user to input their hometown
