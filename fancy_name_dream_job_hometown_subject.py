@@ -35,5 +35,10 @@ art.tprint(dream_job, font="mscript")
 print(Style.RESET_ALL)
 
 # 9. Print the user's hometown in a fancy way
+print("\nYour hometown in a fancy way: ")
+print(Fore.GREEN, end="")
+art.tprint(hometown, font="block")
+print(Style.RESET_ALL)
+
 # 10. Print the user's favorite subject in a fancy way
 # 11. Thank the user for using the program
