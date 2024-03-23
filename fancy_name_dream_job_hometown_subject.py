@@ -17,6 +17,8 @@ name = input("\nPlease enter your name: ")
 dream_job = input("Please enter your dream job: ")
 
 # 5. Prompt the user to input their hometown
+hometown = input("Please enter your hometown: ")
+
 # 6. Prompt the user to input their favorite subject
 # 7. Print the user's name in a fancy way
 # 8. Print the user's dream job in a fancy way
