@@ -22,7 +22,12 @@ hometown = input("Please enter your hometown: ")
 # 6. Prompt the user to input their favorite subject
 favorite_subject = input("Please enter your favorite subject: ")
 
-# 7. Print the user's name in a fancy way
+# 7. Print the user's name in a fancy
+print("\nYour name in a fancy way: ")
+print(Fore.BLUE, end="")
+art.tprint(name, font="doh")
+print(Style.RESET_ALL)
+
 # 8. Print the user's dream job in a fancy way
 # 9. Print the user's hometown in a fancy way
 # 10. Print the user's favorite subject in a fancy way
