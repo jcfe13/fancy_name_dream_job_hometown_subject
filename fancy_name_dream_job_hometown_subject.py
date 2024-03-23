@@ -29,6 +29,11 @@ art.tprint(name, font="doh")
 print(Style.RESET_ALL)
 
 # 8. Print the user's dream job in a fancy way
+print("\nYour dream job in a fancy way: ")
+print(Fore.RED, end="")
+art.tprint(dream_job, font="mscript")
+print(Style.RESET_ALL)
+
 # 9. Print the user's hometown in a fancy way
 # 10. Print the user's favorite subject in a fancy way
 # 11. Thank the user for using the program
