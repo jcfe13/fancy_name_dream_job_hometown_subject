@@ -47,3 +47,7 @@ art.tprint(favorite_subject, font="basic")
 print(Style.RESET_ALL)
 
 # 11. Thank the user for using the program
+print("\n")
+print(Fore.MAGENTA)
+art.tprint("Thank you for using the program!", font="small")
+print(Style.RESET_ALL)
