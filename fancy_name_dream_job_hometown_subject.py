@@ -11,6 +11,8 @@ print(Style.RESET_ALL)
 print("- This program display your name, dream job, hometown, and your favorite subject in a fancy way.")
 
 # 3. Prompt the user to input their name
+name = input("\nPlease enter your name: ")
+
 # 4. Prompt the user to input their dream job
 # 5. Prompt the user to input their hometown
 # 6. Prompt the user to input their favorite subject
